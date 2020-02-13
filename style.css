@@ -1,20 +1,21 @@
 .main-section {
-  background-image: url('img/background3.jpg');
+  background-image: url('img/background.jpg');
   background-size: 100% auto;
-  padding: 200px;
+  /* padding: 300px; */
   position: relative;
+  margin-bottom: 600px;
 }
 
 .main-section h1{
 }
 
 .main-content{
-  background: rgba(0,0,0,.8);
-  padding: 200px;
+  background-color: rgba(0,0,0,0.8);
+padding: 100px;
 }
 
 .main-content h1{
-  background-image: url('img/background.jpg');
+  background-image: url('img/background3.jpg');
   background-attachment: fixed;
   font-size: 100px;
   position: absolute;
