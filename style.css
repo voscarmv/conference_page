@@ -2,19 +2,23 @@
   background-image: url('img/background3.jpg');
   background-size: 100% auto;
   padding: 200px;
+  position: relative;
+}
+
+.main-section h1{
 }
 
 .main-content{
-  background-image: url('img/background.jpg');
-  /* background-attachment: fixed; */
-  background-size: 100% auto;
+  background: rgba(0,0,0,.8);
   padding: 200px;
 }
 
 .main-content h1{
+  background-image: url('img/background.jpg');
+  background-attachment: fixed;
   font-size: 100px;
-  padding-top: 100px;
   position: absolute;
+  top:0;left:0;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
