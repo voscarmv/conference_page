@@ -1,0 +1,20 @@
+.main-section {
+  background-image: url('img/background3.jpg');
+  background-size: 100% auto;
+  padding: 200px;
+}
+
+.main-content{
+  background-image: url('img/background.jpg');
+  /* background-attachment: fixed; */
+  background-size: 100% auto;
+  padding: 200px;
+}
+
+.main-content h1{
+  font-size: 100px;
+  padding-top: 100px;
+  position: absolute;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
