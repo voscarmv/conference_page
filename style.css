@@ -39,16 +39,18 @@
 }
 
 .badge {
-  display: grid;
+  display: inline-grid;
   background-color: black;
   padding: 2px;
-  border-radius: 0;
+  border-radius: 10%;
+  /* border: solid 2px black; */
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 2px;
 }
 
 .cell {
+  border-radius: 30%;
   border: solid 2px transparent;
   background-color: white;
   padding:3px;
