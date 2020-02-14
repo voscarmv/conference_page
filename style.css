@@ -5,7 +5,7 @@
 
 .main-content {
   background-image: linear-gradient(to bottom, rgba(240,240,240,0.5), rgba(240,240,240,0.95), rgba(240,240,240,1.0)),url('img/background8.jpg');
-  background-size: 100% auto;
+  background-size: auto 100%;
   
 padding: 6vw 20% 6vw 10%;
 
@@ -24,7 +24,7 @@ padding: 6vw 20% 6vw 10%;
   /* -webkit-text-fill-color: #ec5242; */
 
   background-attachment: fixed;
-  font-size: 50px;
+  font-size: 45px;
   /* font-weight: bold; */
   /* position: absolute; */
   top: 0;
@@ -74,7 +74,7 @@ padding: 6vw 20% 6vw 10%;
   grid-gap: 2px;
   position: absolute;
   top: -20px;
-  left: -38px;
+  left: calc(-170px + 10vw);
   z-index: 1;
 }
 
@@ -176,8 +176,8 @@ padding: 6vw 20% 6vw 10%;
 }
 
 .circle2{
-  width: 4px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
 }
 
