@@ -3,6 +3,8 @@
   src: url('font/COCOGOOSE/Cocogoose_trial.otf');
 }
 
+
+
 .main-content {
   background-image: linear-gradient(to bottom, rgba(240,240,240,0.5), rgba(240,240,240,0.95), rgba(240,240,240,1.0)),url('img/background8.jpg');
   background-size: auto 100%;
@@ -131,7 +133,6 @@ padding: 6vw 20% 6vw 10%;
   color: darkgray;
   margin-top: 20px;
   margin-bottom: 30px;
-
 }
 
 .badge-container{
@@ -149,7 +150,12 @@ padding: 6vw 20% 6vw 10%;
 }
 
 .site-navbar{
-  background-color: white;
+  background-color: transparent;
+  /* position: absolute; */
+  /* position: fixed; */
+  /* top: 0; */
+  /* float: left; */
+  /* position: fixed; */
 }
 
 .glitch-LOGO{
@@ -199,3 +205,12 @@ padding: 6vw 20% 6vw 10%;
   background-color: white;
   padding:1px;
 }
+
+@media only screen and (min-width: 768px) { 
+  
+  .site-navbar {
+    background-color: white;
+    position: relative;
+  }
+
+ }

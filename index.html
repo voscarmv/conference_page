@@ -17,6 +17,7 @@
   <header class="page-top container-fluid">
     <div class="row">
       <div class="col-12 pl-0 pr-0">
+        <div class=" d-md-block d-none">
         <nav class="social-navbar navbar navbar-expand">
           <ul class="navbar-nav ml-auto">
             <li class="navbar-item">
@@ -27,9 +28,10 @@
             </li>
           </ul>
         </nav>
+      </div>
         <div lass="col-12 pl-0 pr-0">
-          <nav class="site-navbar navbar navbar-expand">
-            <div class="navbar-brand">
+          <nav class="site-navbar navbar navbar-expand-md navbar-light fixed-top">
+            <div class="navbar-brand d-md-block d-none">
               <div class="glitch-LOGO d-flex align-items-center">
                 <div class="badge2">
                   <div class="cell2">
@@ -55,20 +57,29 @@
                   </div>
                   <div class="cell2">
                   </div>
-                </div> 
-                <div class="logo-text"> 
-                GLITCH ~/
+                </div>
+                <div class="logo-text">
+                  GLITCH ~/
                 </div>
               </div>
             </div>
-            <ul class="navbar-nav ml-auto">
-              <li class="navbar-item">
-                <a href="#" class="nav-link">About</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#" class="nav-link">Buy Tickets</a>
-              </li>
-            </ul>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                  <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="nav-link">Buy Tickets</a>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
       </div>
