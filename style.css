@@ -7,7 +7,7 @@
   background-image: linear-gradient(to bottom, rgba(240,240,240,0.5), rgba(240,240,240,0.95), rgba(240,240,240,1.0)),url('img/background8.jpg');
   background-size: 100% auto;
   
-padding: 7vw 20% 7vw 10%;
+padding: 6vw 20% 6vw 10%;
 
   /* padding-left: 10%; */
   /* padding-top: 7vw; */
@@ -157,48 +157,45 @@ padding: 7vw 20% 7vw 10%;
   font-family: 'Cocogoose Pro-trial';
   background-image: url('img/background3.jpg');
   -webkit-text-stroke: 1px #ec5242;
-  /* -webkit-text-fill-color: #ec5242; */
-
-  /* background-attachment: fixed; */
-  /* font-size: 50px; */
-  /* font-weight: bold; */
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 0; */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
-.glitch-G{
-  /* background-image: url('img/background3.jpg'); */
-  /* -webkit-text-stroke: 3px #ec5242; */
-  /* -webkit-text-fill-color: #ec5242; */
-
-  /* background-attachment: fixed; */
-  /* font-size: 50px; */
-  /* font-weight: bold; */
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 0; */
-  /* -webkit-text-fill-color: transparent; */
-  /* -webkit-background-clip: text; */
-  /* color: magenta; */
-/* }
-.glitch-L{
-color: aqua;  
-}
-.glitch-I{
-  color: orangered;
-}
-.glitch-T{
-  color: greenyellow;
-}
-.glitch-C{
-  color: mediumorchid;
-}
-.glitch-H{
-  color: cyan;
-}
-.glitch-s{
-  
+/* .glitch-LOGO-inline{
+  font-size: 15px;
+  font-family: 'Cocogoose Pro-trial';
+  background-image: url('img/background3.jpg');
+  -webkit-text-stroke: 1px #ec5242;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 } */
+
+.logo-text{
+  /* position:absolute; */
+  margin-left: 10px;
+}
+
+.circle2{
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+
+.badge2 {
+  display: inline-grid;
+  background-color: gray;
+  padding: 1px;
+  border-radius: 10%;
+  /* border: solid 2px black; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1px;
+}
+
+
+.cell2 {
+  border-radius: 30%;
+  border: solid 1px transparent;
+  background-color: white;
+  padding:1px;
+}
