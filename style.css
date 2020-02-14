@@ -63,11 +63,6 @@ padding: 7vw 20% 7vw 10%;
   /* -webkit-background-clip: text; */
 }
 
-.navbar {
-  color:white;
-  background-color: #333;
-}
-
 .badge {
   display: inline-grid;
   background-color: gray;
@@ -147,4 +142,12 @@ padding: 7vw 20% 7vw 10%;
   color: #888;
   font-size: 30px;
   font-family: 'Cocogoose Pro-trial';
+}
+
+.social-navbar{
+  background-color: #333;
+}
+
+.site-navbar{
+  background-color: white;
 }
