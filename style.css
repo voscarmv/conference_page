@@ -37,3 +37,45 @@
   color:white;
   background-color: #333;
 }
+
+.badge {
+  display: grid;
+  background-color: black;
+  padding: 2px;
+  border-radius: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 2px;
+}
+
+.cell {
+  border: solid 2px transparent;
+  background-color: white;
+  padding:3px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.bg-1{
+  background-color: magenta;
+}
+
+.bg-2{
+  background-color: greenyellow;
+}
+
+.bg-3{
+  background-color: orangered;
+}
+
+.bg-4{
+  background-color: aqua;
+}
+
+.bg-5{
+  background-color: mediumorchid;
+}
