@@ -16,6 +16,9 @@
 
 .main-content h1 {
   background-image: url('img/background3.jpg');
+  -webkit-text-stroke: 3px #ec5242;
+  /* -webkit-text-fill-color: #ec5242; */
+
   background-attachment: fixed;
   font-size: 100px;
   font-weight: bold;
@@ -27,10 +30,13 @@
 }
 
 .main-content h2{
-  -webkit-text-stroke: 2px #272a31;
-  -webkit-text-fill-color: #ec5242;
+  /* -webkit-text-stroke: 2px #272a31; */
+  /* -webkit-text-stroke: 2px #d3d3d3; */
+  /* -webkit-text-fill-color: #ec5242; */
+  /* -webkit-text-stroke: 2px #ec5242; */
+  /* -webkit-text-fill-color: #ec5242; */
   font-weight: bold;
-  /* color: #ec5242; */
+  color: #ec5242;
   font-size: 100px;
 }
 
