@@ -151,3 +151,54 @@ padding: 7vw 20% 7vw 10%;
 .site-navbar{
   background-color: white;
 }
+
+.glitch-LOGO{
+  font-size: 20px;
+  font-family: 'Cocogoose Pro-trial';
+  background-image: url('img/background3.jpg');
+  -webkit-text-stroke: 1px #ec5242;
+  /* -webkit-text-fill-color: #ec5242; */
+
+  /* background-attachment: fixed; */
+  /* font-size: 50px; */
+  /* font-weight: bold; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.glitch-G{
+  /* background-image: url('img/background3.jpg'); */
+  /* -webkit-text-stroke: 3px #ec5242; */
+  /* -webkit-text-fill-color: #ec5242; */
+
+  /* background-attachment: fixed; */
+  /* font-size: 50px; */
+  /* font-weight: bold; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
+  /* color: magenta; */
+/* }
+.glitch-L{
+color: aqua;  
+}
+.glitch-I{
+  color: orangered;
+}
+.glitch-T{
+  color: greenyellow;
+}
+.glitch-C{
+  color: mediumorchid;
+}
+.glitch-H{
+  color: cyan;
+}
+.glitch-s{
+  
+} */
