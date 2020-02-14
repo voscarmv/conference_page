@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Cocogoose Pro-trial';
+  src: url('font/COCOGOOSE/Cocogoose_trial.otf');
+}
+
 .main-background {
   background-image: url('img/background4.jpg');
   background-size: 100% 100%;
@@ -21,15 +26,16 @@
 
   background-attachment: fixed;
   font-size: 80px;
-  font-weight: bold;
+  /* font-weight: bold; */
   /* position: absolute; */
   top: 0;
   left: 0;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-family: 'Cocogoose Pro-trial';
 }
 
-.main-content h2{
+.main-content h2 {
   /* -webkit-text-stroke: 2px #272a31; */
   /* -webkit-text-stroke: 2px #d3d3d3; */
   /* -webkit-text-fill-color: #ec5242; */
@@ -40,15 +46,17 @@
   color: #ec5242;
   /* font-size: 80px; */
 
-  /* background-image: url('img/background6.jpg'); */
-  /* background-position-x: -7060px ; */
-  /* background-position-y: -850px; */
+  /* background-image: url('img/background7.jpg'); */
+  /* background-position-x: -400px; */
+  /* background-position-y: 0; */
+  /* background-size: 100% auto; */
   /* -webkit-text-stroke: 3px #ec5242; */
   /* -webkit-text-fill-color: #ec5242; */
 
   /* background-attachment: fixed; */
   font-size: 80px;
-  font-weight: bold;
+  font-family: 'Cocogoose Pro-trial';
+  /* font-weight: bold; */
   /* position: absolute; */
   top: 0;
   left: 0;
@@ -85,22 +93,22 @@
   border-radius: 50%;
 }
 
-.bg-1{
+.bg-1 {
   background-color: magenta;
 }
 
-.bg-2{
+.bg-2 {
   background-color: greenyellow;
 }
 
-.bg-3{
+.bg-3 {
   background-color: orangered;
 }
 
-.bg-4{
+.bg-4 {
   background-color: aqua;
 }
 
-.bg-5{
+.bg-5 {
   background-color: mediumorchid;
 }
