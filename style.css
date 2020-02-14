@@ -27,7 +27,7 @@
 }
 
 .main-content h2{
-  -webkit-text-stroke: 5px black;
+  -webkit-text-stroke: 3px gray;
   -webkit-text-fill-color: white;
   font-weight: bold;
   font-size: 100px;
@@ -40,7 +40,7 @@
 
 .badge {
   display: inline-grid;
-  background-color: black;
+  background-color: gray;
   padding: 2px;
   border-radius: 10%;
   /* border: solid 2px black; */
