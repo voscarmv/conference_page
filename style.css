@@ -34,6 +34,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: 'Cocogoose Pro-trial';
+  white-space: nowrap;
 }
 
 .main-content h2 {
@@ -134,6 +135,10 @@
   background-color: #ec5242;
 }
 
+.glitch-LOGO-inline{
+  white-space: nowrap;
+}
+
 .main-text {
   display: flex;
 }
@@ -194,6 +199,7 @@
 .logo-text{
   /* position:absolute; */
   margin-left: 10px;
+  white-space: nowrap;
 }
 
 .circle2{
