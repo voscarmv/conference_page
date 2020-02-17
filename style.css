@@ -345,6 +345,18 @@
   background-position: center center;
 }
 
+.guest-gregory{
+  background-image: url('img/gregory.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.guest-vuk{
+  background-image: url('img/vuk.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
 .guest-centering {
   display: flex;
   align-items: flex-start;
