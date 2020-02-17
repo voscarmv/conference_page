@@ -40,7 +40,7 @@
   /* position: relative; */
 }
 
-.main-content h1, .main-content-about h1 {
+.main-content h1, .main-content-about h1, .logo-container h1 {
   background-image: url('img/background3.jpg');
   -webkit-text-stroke: 3px #ec5242;
   /* -webkit-text-fill-color: #ec5242; */
@@ -55,6 +55,26 @@
   -webkit-background-clip: text;
   font-family: 'Cocogoose Pro-trial';
   white-space: nowrap;
+}
+
+.logo-container{
+  border: solid 2px lightgray;
+  padding: 40px;
+}
+
+.centered-message{
+  font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px 0 15px 0;
+}
+
+.gray-text{
+  color: darkgray;
+}
+
+.logo-container h1 {
+  font-size: 60px;
 }
 
 .main-content h2, .main-content-about h2 {
