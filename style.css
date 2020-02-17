@@ -202,6 +202,19 @@
   -webkit-text-stroke: 1px #ec5242;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  white-space: nowrap;
+}
+
+.glitch-LOGO-medium {
+  font-size: 30px;
+  font-family: 'Cocogoose Pro-trial';
+  background-image: url('img/background3.jpg');
+  -webkit-text-stroke: 1px #ec5242;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  white-space: nowrap;
+  background-attachment: fixed;
+
 }
 
 /* .glitch-LOGO-inline{
@@ -216,6 +229,7 @@
 .logo-text {
   /* position:absolute; */
   margin-left: 10px;
+  margin-right: 20px;
   white-space: nowrap;
 }
 
@@ -302,6 +316,7 @@
   width: 100%;
   padding-top: 100%;
   /* z-index: 2; */
+  margin: 20px 0 20px 0;
   position: relative;
   background-image: url('img/background3.jpg')
 }
@@ -346,6 +361,16 @@
   margin: 30px;
   /* height:auto; */
   /* height: 200px; */
+}
+
+.footer-grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+.page-footer{
+  background-color: #d3d3d3;
 }
 
 @media only screen and (min-width: 768px) {
