@@ -9,7 +9,7 @@
   background-image: linear-gradient(to bottom, rgba(240,240,240,0.5), rgba(240,240,240,0.95), rgba(240,240,240,1.0)),url('img/background8.jpg');
   background-size: auto 100%;
   
-padding: 12% 20% 6vw 10%;
+/* padding: 12% 20% 6vw 10%; */
 
   /* padding-left: 10%; */
   /* padding-top: 7vw; */
@@ -113,10 +113,12 @@ padding: 12% 20% 6vw 10%;
   background-color: mediumorchid;
 }
 
-.main-content{
-  display: flex;
-  flex-direction: column;
-  /* margin-bottom: 500px; */
+.empty-separator-big{
+  height: 130px;
+}
+
+.empty-separator-medium{
+  height: 50px;
 }
 
 .main-text {
