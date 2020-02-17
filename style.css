@@ -318,12 +318,36 @@
   /* z-index: 2; */
   margin: 20px 0 20px 0;
   position: relative;
-  background-image: url('img/background3.jpg')
+}
+
+.guest-jodi{
+  background-image: url('img/jodi.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.guest-alexei{
+  background-image: url('img/alexei.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.guest-genco{
+  background-image: url('img/genco.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.guest-sergio{
+  background-image: url('img/sergio.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
 .guest-centering {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 
