@@ -362,6 +362,33 @@
   align-items: flex-start;
 }
 
+.guest-name a{
+color: #444;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+}
+
+.guest-intro{
+font-size: 16px;
+color: #ec5242;
+font-style: italic;
+font-weight: bold;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.guest-intro a{
+color: #444;
+}
+
+.guest-description{
+  color: #777;
+font-weight: bold;
+font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
 
 .badge-3 {
   display: inline-grid;
