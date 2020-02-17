@@ -292,6 +292,41 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.guests-header{
+  
+  color: #272a31;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.guest-image{
+  width: 100%;
+  padding-top: 100%;
+  /* z-index: 2; */
+  position: relative;
+}
+
+.guest-centering{
+  display: flex;
+  align-items: center;
+}
+
+
+.badge-3 {
+  display: inline-grid;
+  background-color: gray;
+  padding: 2px;
+  border-radius: 10%;
+  /* border: solid 2px black; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 2px;
+  position: absolute;
+top:-20px;
+left: -20px;
+  z-index: -1;
+}
+
 @media only screen and (min-width: 768px) {
 
   .site-navbar {
