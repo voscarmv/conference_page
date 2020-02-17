@@ -121,6 +121,19 @@
   height: 50px;
 }
 
+.separator-line-medium{
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-separator{
+  width: 50px;
+  height: 3px;
+  background-color: #ec5242;
+}
+
 .main-text {
   display: flex;
 }
