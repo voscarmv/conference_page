@@ -183,12 +183,12 @@
   /* position: fixed; */
 }
 
-.custom-toggler.navbar-toggler { 
-  background-color: rgba(200,200,200,0.5); 
-} 
+.custom-toggler.navbar-toggler {
+  background-color: rgba(200, 200, 200, 0.5);
+}
 
-.nvlink-text{
-  background-color: rgba(255,255,255,0.7);
+.nvlink-text {
+  background-color: rgba(255, 255, 255, 0.7);
   width: 100px;
   font-weight: bold;
   margin-left: auto;
@@ -292,21 +292,21 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.guests-header{
-  
+.guests-header {
   color: #272a31;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.guest-image{
+.guest-image {
   width: 100%;
   padding-top: 100%;
   /* z-index: 2; */
   position: relative;
+  background-image: url('img/background3.jpg')
 }
 
-.guest-centering{
+.guest-centering {
   display: flex;
   align-items: center;
 }
@@ -322,9 +322,30 @@
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 2px;
   position: absolute;
-top:-20px;
-left: -20px;
+  top: -20px;
+  left: -20px;
   z-index: -1;
+}
+
+.guest-content{
+  padding: 20px;
+}
+
+.sponsors{
+  background-color: #333;
+}
+
+.sponsors-header{
+  color: darkgray;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sponsor-image{
+  width:200px;
+  margin: 30px;
+  /* height:auto; */
+  /* height: 200px; */
 }
 
 @media only screen and (min-width: 768px) {
