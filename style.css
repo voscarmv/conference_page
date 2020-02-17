@@ -436,6 +436,12 @@ font-size: 13px;
   background-color: #d3d3d3;
 }
 
+.footer-copyright{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: darkgray;
+}
+
 @media only screen and (min-width: 768px) {
 
   .site-navbar {
