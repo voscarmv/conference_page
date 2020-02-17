@@ -11,14 +11,14 @@
 
 
 .main-content {
-  background-image: linear-gradient(to bottom, rgba(240,240,240,0.5), rgba(240,240,240,0.95), rgba(240,240,240,1.0)),url('img/background8.jpg');
+  background-image: linear-gradient(to bottom, rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.95), rgba(240, 240, 240, 1.0)), url('img/background8.jpg');
   background-size: auto 100%;
-  
-/* padding: 12% 20% 6vw 10%; */
+
+  /* padding: 12% 20% 6vw 10%; */
 
   /* padding-left: 10%; */
   /* padding-top: 7vw; */
-    /* padding-bottom: 7vw; */
+  /* padding-bottom: 7vw; */
 
   /* background-position-y: -400px; */
   /* padding: 300px; */
@@ -90,7 +90,7 @@
   border-radius: 30%;
   border: solid 2px transparent;
   background-color: white;
-  padding:2px;
+  padding: 2px;
 }
 
 .circle {
@@ -119,28 +119,28 @@
   background-color: mediumorchid;
 }
 
-.empty-separator-big{
+.empty-separator-big {
   height: 130px;
 }
 
-.empty-separator-medium{
+.empty-separator-medium {
   height: 50px;
 }
 
-.separator-line-medium{
+.separator-line-medium {
   margin: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.line-separator{
+.line-separator {
   width: 50px;
   height: 3px;
   background-color: #ec5242;
 }
 
-.glitch-LOGO-inline{
+.glitch-LOGO-inline {
   white-space: nowrap;
 }
 
@@ -148,7 +148,7 @@
   display: flex;
 }
 
-.text-container{
+.text-container {
   /* width:50%; */
   background-color: #f0f0f0;
   border: solid 5px white;
@@ -160,7 +160,7 @@
   margin-bottom: 30px;
 }
 
-.badge-container{
+.badge-container {
   position: relative;
 }
 
@@ -170,11 +170,11 @@
   font-family: 'Cocogoose Pro-trial';
 }
 
-.social-navbar{
+.social-navbar {
   background-color: #333;
 }
 
-.site-navbar{
+.site-navbar {
   background-color: transparent;
   /* position: absolute; */
   /* position: fixed; */
@@ -183,7 +183,19 @@
   /* position: fixed; */
 }
 
-.glitch-LOGO{
+.custom-toggler.navbar-toggler { 
+  background-color: rgba(200,200,200,0.5); 
+} 
+
+.nvlink-text{
+  background-color: rgba(255,255,255,0.7);
+  width: 100px;
+  font-weight: bold;
+  margin-left: auto;
+  border-radius: 10px;
+}
+
+.glitch-LOGO {
   font-size: 20px;
   font-family: 'Cocogoose Pro-trial';
   background-image: url('img/background3.jpg');
@@ -201,13 +213,13 @@
   -webkit-background-clip: text;
 } */
 
-.logo-text{
+.logo-text {
   /* position:absolute; */
   margin-left: 10px;
   white-space: nowrap;
 }
 
-.circle2{
+.circle2 {
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -229,61 +241,62 @@
   border-radius: 30%;
   border: solid 1px transparent;
   background-color: white;
-  padding:1px;
+  padding: 1px;
 }
 
-.event-item{
+.event-item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.event-icon{
+.event-icon {
   width: 100%;
   height: 70px;
   display: flex;
   justify-content: center;
 }
 
-.main-program{
-  background-image: linear-gradient(to bottom, rgba(22,22,22,0.9), rgba(22,22,22,0.9)), url('img/stackoverflow-glitch-bg.png');
-  background-size: auto 100%;  
+.main-program {
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)), url('img/stackoverflow-glitch-bg.png');
+  background-size: auto 100%;
 }
 
-.main-event{
-  background-image: linear-gradient(to bottom, rgba(22,22,22,0.7), rgba(22,22,22,0.7));
+.main-event {
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.7));
 
   display: flex;
-/* flex-direction: column; */
+  /* flex-direction: column; */
   align-items: center;
   font-size: 14px;
-color: white;
-text-align: center;
-border: solid 2px transparent;
+  color: white;
+  text-align: center;
+  border: solid 2px transparent;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-event:hover{
+.main-event:hover {
   border: solid 2px white;
 }
 
-.event-title{
+.event-title {
   color: #ec5242;
   font-size: 16px;
   padding: 10px 0 10px 0;
   font-family: 'Cocogoose Pro-Trial';
 }
 
-.main-program-header{
+.main-program-header {
   color: white;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (min-width: 768px) { 
-  
+@media only screen and (min-width: 768px) {
+
   .site-navbar {
     background-color: white;
     position: relative;
   }
 
- }
+}
