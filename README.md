@@ -1,8 +1,35 @@
-# Project Name
+# A net.art exhibit page
 
-> One paragraph statement about the project.
+> This web page is based on a template for a conference page. I've adapted that design to promote an art gallery exhibit. I've decided to go with the theme of net.art for this project. Glitch art is a recurring theme in this adaptation. The design is responsive: it works both on desktop and mobile devices.
+
+## Video presentation of the page design
+
+[![Video](video_thumb)](www.loom.com)
+
+## Main page, desktop view
 
 ![screenshot](./app_screenshot.png)
+
+## Main page, mobile view
+
+![screenshot](./app_screenshot.png)
+
+## About page, desktop view
+
+![screenshot](./app_screenshot.png)
+
+## About page, mobile view
+
+![screenshot](./app_screenshot.png)
+
+## Tickets sale page, desktop view
+
+![screenshot](./app_screenshot.png)
+
+## Tickets sale page, mobile view
+
+![screenshot](./app_screenshot.png)
+
 
 Additional description about the project and its features.
 
