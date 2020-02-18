@@ -8,27 +8,27 @@
 
 ## Main page, desktop view
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/img/main_desktop.png)
 
 ## Main page, mobile view
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/img/main_mobile.png)
 
 ## About page, desktop view
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/img/about_desktop.png)
 
 ## About page, mobile view
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/img/about_mobile.png)
 
 ## Tickets sale page, desktop view
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/img/tickets_desktop.png)
 
 ## Tickets sale page, mobile view
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/img/tickets_mobile.png)
 
 ## Built With
 
@@ -40,7 +40,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/voscarmv/conference_page/5c815064b9cac433a3464f5ab89b9a39110f4a64/pages/index.html)
 
 ## Usage
 
