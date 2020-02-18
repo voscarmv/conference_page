@@ -560,6 +560,45 @@ font-size: 13px;
   border: 10px solid lightgray;
 }
 
+.header-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
+
+.header-2{
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+}
+
+.normal-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
+
+.date-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
+
+.student{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
+
 @media only screen and (min-width: 768px) {
 
   .site-navbar {
