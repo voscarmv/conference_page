@@ -72,7 +72,7 @@ Give a ⭐️ if you like this project!
 The images used for this project have been released for non-commercial use, and are available online here:
 
 - [https://www.flickr.com/photos/hellocatfood/11287069044/](https://www.flickr.com/photos/hellocatfood/11287069044/)
-- [https://commons.wikimedia.org/wiki/File:Glitch_Art.jpg]https://commons.wikimedia.org/wiki/File:Glitch_Art.jpg()
+- [https://commons.wikimedia.org/wiki/File:Glitch_Art.jpg](https://commons.wikimedia.org/wiki/File:Glitch_Art.jpg)
 - [https://www.flaticon.com/free-icon/dish_857718?term=dinner&page=1&position=6](https://www.flaticon.com/free-icon/dish_857718?term=dinner&page=1&position=6)
 - [https://www.flaticon.com/free-icon/dish_857718?term=dinner&page=1&position=6](https://www.flaticon.com/free-icon/dish_857718?term=dinner&page=1&position=6)
 - [https://www.flaticon.com/free-icon/image_2467800?term=picture&page=1&position=22](https://www.flaticon.com/free-icon/image_2467800?term=picture&page=1&position=22)
