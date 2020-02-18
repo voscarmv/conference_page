@@ -19,17 +19,6 @@
   font-size: 19px;
 }
 
-.main-content h4 a,
-.main-content h4 {
-  color: #888;
-  font-size: 20px;
-}
-
-.logo-text a,
-.logo-text a:hover {
-  text-decoration: none;
-}
-
 .glitch-LOGO,
 .glitch-LOGO a,
 .glitch-LOGO a:hover {
@@ -40,6 +29,17 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   white-space: nowrap;
+}
+
+.logo-text a,
+.logo-text a:hover {
+  text-decoration: none;
+}
+
+.main-content h4 a,
+.main-content h4 {
+  color: #888;
+  font-size: 20px;
 }
 
 .main-content {
