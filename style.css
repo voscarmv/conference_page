@@ -175,6 +175,20 @@
   background-color: #ec5242;
 }
 
+.separator-line-100 {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.line-separator-100{
+  width: 100%;
+  height: 2px;
+  background-color: lightgray;
+}
+
 .glitch-LOGO-inline {
   white-space: nowrap;
 }
@@ -365,7 +379,7 @@
   width: 100%;
   padding-top: 100%;
   /* z-index: 2; */
-  margin: 15px 0 15px 0;
+  margin: 30px 0 30px 0;
   position: relative;
 }
 
@@ -489,6 +503,34 @@ font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: darkgray;
+}
+
+.past-glitch-image{
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.past-glitch-text {
+  color: white;
+  /* font-family: 'Cocogoose Pro-trial'; */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.past-link:hover{
+  text-decoration: none;
+}
+
+.past-glitch-text h2{
+  font-size: 25px;
+}
+
+.past-glitch-text h3{
+  font-size: 18px;
 }
 
 @media only screen and (min-width: 768px) {
