@@ -626,9 +626,27 @@
   display: inline-block;
 }
 
-.diamond-container{
-  position:absolute;
+.diamond-container {
+  position: absolute;
   top: -40px;
+}
+
+.arrow-down {
+  position: relative;
+  display: inline-block;
+  height: 80px;
+}
+
+.arrow-in {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  border-bottom: 10px solid transparent;
+  top: 40px;
+  left: -10px;
 }
 
 @media only screen and (min-width: 768px) {
