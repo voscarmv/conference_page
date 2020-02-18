@@ -626,6 +626,11 @@
   display: inline-block;
 }
 
+.diamond-container{
+  position:absolute;
+  top: -40px;
+}
+
 @media only screen and (min-width: 768px) {
 
   .site-navbar {
