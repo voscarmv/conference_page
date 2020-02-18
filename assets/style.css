@@ -333,13 +333,6 @@ section > h6 {
   border: solid 2px white;
 }
 
-.event-title {
-  color: #ec5242;
-  font-size: 14px;
-  padding: 10px 0 10px 0;
-  font-family: 'Cocogoose Pro-Trial', Arial, Helvetica, sans-serif;
-}
-
 .main-program-header {
   color: white;
   font-size: 30px;
@@ -442,11 +435,6 @@ section > h6 {
   color: darkgray;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.sponsor-image {
-  width: 200px;
-  margin: 30px;
 }
 
 .page-footer {
@@ -683,5 +671,30 @@ section > h6 {
   .site-navbar {
     background-color: white;
     position: relative;
+  }
+  .event-title {
+    color: #ec5242;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    font-family: 'Cocogoose Pro-Trial', Arial, Helvetica, sans-serif;
+  }
+
+  .sponsor-image {
+    width: 200px;
+    margin: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .event-title {
+    color: #ec5242;
+    font-size: 14px;
+    padding: 10px 0 10px 0;
+    font-family: 'Cocogoose Pro-Trial', Arial, Helvetica, sans-serif;
+  }
+
+  .sponsor-image {
+    width: 100px;
+    margin: 15px;
   }
 }
