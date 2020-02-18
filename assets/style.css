@@ -8,7 +8,7 @@
   src: url('font/COCOGOOSE/Cocogoose-Condensed-Regular-trial.ttf');
 }
 
-section > h6 {
+section>h6 {
   display: none;
 }
 
@@ -95,7 +95,6 @@ section > h6 {
   background-image: url('img/background3.jpg');
   -webkit-text-stroke: 3px #ec5242;
   background-attachment: fixed;
-  font-size: 10vw;
   top: 0;
   left: 0;
   -webkit-text-fill-color: transparent;
@@ -403,7 +402,6 @@ section > h6 {
 
 .guest-description {
   color: #777;
-  font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 15px;
   padding-right: 2vw;
@@ -672,6 +670,7 @@ section > h6 {
     background-color: white;
     position: relative;
   }
+
   .event-title {
     color: #ec5242;
     font-size: 16px;
@@ -683,9 +682,21 @@ section > h6 {
     width: 200px;
     margin: 30px;
   }
+
+  .event-icon-image {
+    width: 75%;
+  }
+
+  .guest-description {
+    font-size: 15px;
+  }
+
+  .logo-container h1 {
+    font-size: 5vw;
+  }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .event-title {
     color: #ec5242;
     font-size: 14px;
@@ -696,5 +707,17 @@ section > h6 {
   .sponsor-image {
     width: 100px;
     margin: 15px;
+  }
+
+  .event-icon-image {
+    width: 100%;
+  }
+
+  .guest-description {
+    font-size: 13px;
+  }
+
+  .logo-container h1 {
+    font-size: 1vw;
   }
 }
