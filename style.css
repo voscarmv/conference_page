@@ -9,7 +9,7 @@
 }
 
 .main-content {
-  background-image: linear-gradient(to bottom, rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.95), rgba(240, 240, 240, 1.0)), url('img/background8.jpg');
+  background-image: linear-gradient(to bottom, rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.95), rgba(240, 240, 240, 1)), url('img/background8.jpg');
   background-size: auto 100%;
 }
 
@@ -28,7 +28,7 @@
   left: 0;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-family: 'Cocogoose Pro-trial';
+  font-family: 'Cocogoose Pro-trial', Arial, Helvetica, sans-serif;
   white-space: nowrap;
 }
 
@@ -46,7 +46,7 @@
   left: 0;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-family: 'Cocogoose Pro-trial';
+  font-family: 'Cocogoose Pro-trial', Arial, Helvetica, sans-serif;
   white-space: nowrap;
 }
 
@@ -65,7 +65,7 @@
 .main-content-about h2 {
   color: #ec5242;
   font-size: 40px;
-  font-family: 'Cocogoose Pro-trial';
+  font-family: 'Cocogoose Pro-trial', Arial, Helvetica, sans-serif;
   top: 0;
   left: 0;
 }
@@ -183,7 +183,7 @@
 .main-content h3 {
   color: #888;
   font-size: 30px;
-  font-family: 'Cocogoose Pro-trial';
+  font-family: 'Cocogoose Pro-trial', Arial, Helvetica, sans-serif;
 }
 
 .main-content h4 a,
@@ -216,7 +216,7 @@
 .glitch-LOGO a,
 .glitch-LOGO a:hover {
   font-size: 20px;
-  font-family: 'Cocogoose Pro-trial';
+  font-family: 'Cocogoose Pro-trial', Arial, Helvetica, sans-serif;
   background-image: url('img/background3.jpg');
   -webkit-text-stroke: 1px #ec5242;
   -webkit-text-fill-color: transparent;
@@ -226,7 +226,7 @@
 
 .glitch-LOGO-medium {
   font-size: 30px;
-  font-family: 'Cocogoose Pro-trial';
+  font-family: 'Cocogoose Pro-trial', Arial, Helvetica, sans-serif;
   background-image: url('img/background3.jpg');
   -webkit-text-stroke: 1px #ec5242;
   -webkit-text-fill-color: transparent;
@@ -306,7 +306,7 @@
   color: #ec5242;
   font-size: 16px;
   padding: 10px 0 10px 0;
-  font-family: 'Cocogoose Pro-Trial';
+  font-family: 'Cocogoose Pro-Trial', Arial, Helvetica, sans-serif;
 }
 
 .main-program-header {
@@ -377,7 +377,6 @@
 }
 
 .guest-intro {
-  font-size: 16px;
   color: #ec5242;
   font-style: italic;
   font-weight: bold;
