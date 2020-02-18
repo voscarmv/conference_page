@@ -552,6 +552,14 @@ font-size: 13px;
   background-color: #d3d3d3;
 }
 
+.tickets-table{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 2fr 2fr ;
+
+  border: 10px solid lightgray;
+}
+
 @media only screen and (min-width: 768px) {
 
   .site-navbar {
