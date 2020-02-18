@@ -46,7 +46,7 @@
 
 The page is for design showcasing only. None of the elements or interfaces in it really work.
 
-## Authors
+## Author
 
 **Oscar Mier**
 - Github: [@voscarmv](https://github.com/voscarmv)
