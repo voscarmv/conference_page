@@ -522,7 +522,7 @@ font-size: 13px;
 }
 
 .past-link:hover{
-  text-decoration: none;
+  color: white;
 }
 
 .past-glitch-text h2{
@@ -531,6 +531,20 @@ font-size: 13px;
 
 .past-glitch-text h3{
   font-size: 18px;
+}
+
+.past-image-1{
+  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url('img/past1.jpg');
+  /* background-image: url('img/past1.jpg'); */
+  background-size: cover;
+  background-position: center center;
+}
+
+.past-image-2{
+  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url('img/past2.jpg');
+  /* background-image: url('img/past2.jpg'); */
+  background-size: cover;
+  background-position: center center;
 }
 
 @media only screen and (min-width: 768px) {
