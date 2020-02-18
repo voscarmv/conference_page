@@ -4,7 +4,7 @@
 
 ## Video presentation
 
-[![Video](video_thumb)](www.loom.com)
+[![Video](assets/img/video_thumb.png)](https://www.loom.com/share/b9e0ff8ae5584184ae6911ce83311f9d)
 
 ## Main page, desktop view
 
