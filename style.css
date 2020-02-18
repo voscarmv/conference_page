@@ -557,14 +557,14 @@ font-size: 13px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr 2fr 2fr ;
 
-  border: 10px solid lightgray;
+  border: 1px solid gray;
 }
 
 .header-1{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px black;
+  border: solid 1px gray;
 }
 
 .header-2{
@@ -572,7 +572,7 @@ font-size: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid 1px black;
+  border: solid 1px gray;
 }
 
 .normal-1{
@@ -580,7 +580,7 @@ font-size: 13px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 1px black;
+  border: solid 1px gray;
 }
 
 .date-1{
@@ -588,7 +588,7 @@ font-size: 13px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 1px black;
+  border: solid 1px gray;
 }
 
 .student{
@@ -596,7 +596,7 @@ font-size: 13px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 1px black;
+  border: solid 1px gray;
 }
 
 @media only screen and (min-width: 768px) {
