@@ -34,8 +34,11 @@
   font-size: 20px;
 }
 
-.logo-text a,
 .logo-text a:hover {
+  text-decoration: none;
+}
+
+.logo-text a {
   text-decoration: none;
 }
 
@@ -439,12 +442,6 @@
 .sponsor-image {
   width: 200px;
   margin: 30px;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr;
 }
 
 .page-footer {
