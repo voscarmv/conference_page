@@ -19,13 +19,22 @@
   font-size: 19px;
 }
 
+.glitch-LOGO a{
+  font-size: 20px;
+  font-family: 'Cocogoose Pro-trial', Arial, Helvetica, sans-serif;
+  background-image: url('img/background3.jpg');
+  -webkit-text-stroke: 1px #ec5242;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  white-space: nowrap;
+}
+
 .logo-text a,
 .logo-text a:hover {
   text-decoration: none;
 }
 
 .glitch-LOGO,
-.glitch-LOGO a,
 .glitch-LOGO a:hover {
   font-size: 20px;
   font-family: 'Cocogoose Pro-trial', Arial, Helvetica, sans-serif;
