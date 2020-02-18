@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../assets/style.css">
   <title>GLITCH ~/ NET.ART WORLD EXHIBIT</title>
 </head>
 
@@ -21,10 +21,10 @@
           <nav class="social-navbar navbar navbar-expand">
             <ul class="navbar-nav ml-auto">
               <li class="navbar-item">
-                <a class="nav-link py-0" href="#"><img class="social-icon" src="img/facebook.svg" alt="facebook"></a>
+                <a class="nav-link py-0" href="#"><img class="social-icon" src="../assets/img/facebook.svg" alt="facebook"></a>
               </li>
               <li class="navbar-item">
-                <a class="nav-link py-0" href="#"><img class="social-icon" src="img/twitter.svg" alt="twitter"></a>
+                <a class="nav-link py-0" href="#"><img class="social-icon" src="../assets/img/twitter.svg" alt="twitter"></a>
               </li>
             </ul>
           </nav>
@@ -96,8 +96,8 @@
   </header>
   <main class="landing container-fluid">
     <div class="row">
-      <section class="main-content-about col-12">
-        <h6>Main Content</h6>
+      <section class="select-tickets col-12">
+        <h6>Select Tickets</h6>
         <div class="row">
           <div class="col-12">
             <div class="empty-separator-medium"></div>
@@ -105,165 +105,216 @@
         </div>
         <!-- <h6>Main Section</h6> -->
         <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10">
-            <div class="text-center">
-              <h1>GLITCH ~/</h1>
-              <h2>NET.ART WORLD EXHIBIT 2020</h2>
-            </div>
-            <div class="main-text-about">
-              <div class="text-container text-center">
-                Why an exhibition of net.art at the Mestna galerija in Ljubljana? First and foremost, it is a matter of
-                continuing an exhibition series that forms an important part of the program scheme: themed exhibitions
-                that broach questions relating to how various media novelties affect the social, societal, and political
-                paradigms of the world today.
-              </div>
-            </div>
-            <div class="text-center centered-message">
-              Please contact us per e-mail for any further questions about <span class="glitch-LOGO-inline">GLITCH
-                ~/</span><br>
-              <a href="#">exhibit@glitchnet.art</a>
-            </div>
-          </div>
-          <div class="col-1"></div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="empty-separator-medium"></div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-
-    <div class="row">
-      <section class="glitch-logo-origin col-12">
-        <h6>Glitch Logo</h6>
-        <div class="row">
-          <div class="col-12">
-            <div class="empty-separator-medium"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10">
-
+          <div class="col-0 col-md-1"></div>
+          <div class="col-12 col-md-10">
             <div class="row">
 
               <div class="col-12">
                 <div class="text-center w-100">
-                  <div class="guests-header"><span class="glitch-LOGO-inline">GLITCH ~/</span> 2020 logo</div>
+                  <div class="guests-header">Select Tickets</div>
                   <div class="separator-line-medium">
                     <div class="line-separator"></div>
                   </div>
-                </div>
-              </div>
 
-            </div>
-            <div class="row">
-
-              <div class="col-12">
-                <div class="centered-message gray-text text-center">
-                  According to Alexei Shulgin, the term net.art stemmed from "conjoined phrases in an email bungled by a
-                  technical
-                  glitch (a morass of alphanumeric junk, its only legible term 'net.art')". The logo represents an
-                  homage to the
-                  recurring theme of computer glitches, present throughout net.art.
+                  <div class="d-flex justify-content-center">
+                    <div class="step text-center">
+                      <span class="step-num">STEP 1</span><span class="step-text">Please select the day when you wish to
+                        attend <span class="glitch-LOGO-inline">GLITCH ~/</span></span>
+                    </div>
+                  </div>
                 </div>
-                <div class="separator-line-medium"></div>
-              </div>
-
-              <div class="col-12 d-flex justify-content-center">
-                <div class="logo-container">
-                  <h1>GLITCH ~/</h1>
-                </div>
+                <form>
+                  <div class="tickets-table">
+                    <div class="header-1">
+                      Ticket
+                    </div>
+                    <div class="header-1">
+                      1-Day
+                    </div>
+                    <div class="header-2">
+                      2-Day Ticket
+                    </div>
+                    <div class="header-1">
+                      Members
+                    </div>
+                    <div class="date-1">
+                      Date
+                    </div>
+                    <div class="date-1">
+                      17.Oct
+                    </div>
+                    <div class="date-1">
+                      18.Oct
+                    </div>
+                    <div class="date-1">
+                      17-18.Oct
+                    </div>
+                    <div class="date-1">
+                      17-18.Oct
+                    </div>
+                    <div class="normal-1">
+                      Normal
+                    </div>
+                    <div class="normal-1">
+                      <div>
+                        <label for="normal-sat">$70,000</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="normal-sat" name="ticket">
+                      </div>
+                    </div>
+                    <div class="normal-1">
+                      <div>
+                        <label for="normal-sun">$70,000</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="normal-sun" name="ticket">
+                      </div>
+                    </div>
+                    <div class="normal-1">
+                      <div>
+                        <label for="normal-both">$100,000</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="normal-both" name="ticket">
+                      </div>
+                    </div>
+                    <div class="normal-1">
+                      <div>
+                        <label for="normal-free">$0</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="normal-free" name="ticket">
+                      </div>
+                    </div>
+                    <div class="student">
+                      Student
+                    </div>
+                    <div class="student">
+                      <div>
+                        <label for="student-sat">$30,000</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="student-sat" name="ticket">
+                      </div>
+                    </div>
+                    <div class="student">
+                      <div>
+                        <label for="student-sun">$30,000</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="student-sun" name="ticket">
+                      </div>
+                    </div>
+                    <div class="student">
+                      <div>
+                        <label for="student-both">$50,000</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="student-both" name="ticket">
+                      </div>
+                    </div>
+                    <div class="student">
+                      <div>
+                        <label for="student-free">$0</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="student-free" name="ticket">
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
 
             </div>
 
           </div>
-          <div class="col-1"></div>
+          <div class="col-0 col-md-1"></div>
         </div>
         <div class="row">
           <div class="col-12">
-            <div class="empty-separator-medium"></div>
+            <div class="empty-separator-big"></div>
           </div>
         </div>
       </section>
-
     </div>
 
     <div class="row">
-      <div class="col-12 p-0">
-        <div class="line-separator-100"></div>
+      <div class="col-12 diamond-separator d-flex justify-content-center align-items-center">
+        <div class="diamond-container">
+          <div class="triangle-left"></div><div class="arrow-down"><div class="arrow-in"></div></div><div class="triangle-right"></div>
+        </div>
       </div>
     </div>
 
+
     <div class="row">
-      <section class="past-glitch col-12">
-        <h6>Past Events</h6>
+      <section class="select-lunch col-12">
+        <h6>Select your Lunch</h6>
         <div class="row">
-          <div class="empty-separator-medium"></div>
-        </div>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10">
-
-            <div class="row">
-
-              <div class="col-12">
-                <div class="text-center w-100">
-                  <div class="guests-header">See past <span class="glitch-LOGO-inline">GLITCH ~/</span> exhibits</div>
-                  <div class="separator-line-medium">
-                    <div class="line-separator"></div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="row">
-              <div class="guest-artist col-12 col-md-6">
-                <div class="row">
-                  <div class="col-12">
-                    <a class="past-link" 
-                      href="https://www.newmuseum.org/exhibitions/view/the-art-happens-here-net-art-s-archival-poetics">
-                      <div class="past-glitch-image past-image-1">
-                        <div class="past-glitch-text text-center">
-                          <h2>2018</h2>
-                          <h3>GLITCH ~/ New York</h3>
-                          </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="guest-artist col-12 col-md-6">
-                <div class="row">
-                  <div class="col-12">
-                    <a class="past-link" href="https://netzkunst.berlin/">
-                    <div class="past-glitch-image past-image-2">
-                      <div class="past-glitch-text text-center">
-                        <h2>2019</h2>
-                        <h3>GLITCH ~/ Berlin</h3>
-                      </div>
-                    </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+          <div class="col-12">
+            <div class="empty-separator-medium"></div>
           </div>
-          <div class="col-1"></div>
         </div>
         <div class="row">
-          <div class="empty-separator-medium"></div>
+          <div class="col-0 col-md-1"></div>
+          <div class="col-12 col-md-10">
+            <div class="text-center w-100">
+              <div class="guests-header">Select Your Lunch</div>
+              <div class="separator-line-medium">
+                <div class="line-separator"></div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="step text-center">
+                <span class="step-num">STEP 2</span><span class="step-text">Please select your lunch. There will be no
+                  futher costs for the lunch.</span>
+              </div>
+            </div>
+            <form>
+            <div class="lunch-menu">
+              <div class="head-cell"></div>
+              <div class="head-cell"></div>
+              <div class="head-cell"></div>
+              <div class="menu-cell">
+                <div>
+                  <label for="menu1">Menu 1</label>
+                </div>
+                <div>
+                  <input type="radio" id="menu1" name="ticket">
+                </div>
+              </div>
+              <div class="menu-cell">
+                <div>
+                  <label for="menu2">Menu 2</label>
+                </div>
+                <div>
+                  <input type="radio" id="menu2" name="ticket">
+                </div>
+              </div>
+              <div class="menu-cell">
+                <div>
+                  <label for="menu3">Menu 3</label>
+                </div>
+                <div>
+                  <input type="radio" id="menu3" name="ticket">
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="text-center">
+          <button class="checkout">Go To Checkout</button>
         </div>
-
+          </div>
+          <div class="col-0 col-md-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="empty-separator-medium"></div>
+          </div>
+        </div>
       </section>
+
     </div>
 
   </main>
