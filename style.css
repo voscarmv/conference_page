@@ -642,6 +642,11 @@
   background-color: white;
 }
 
+.normal-1 label{
+  color: #ec5242;
+  font-weight: bold;
+}
+
 .date-1 {
   display: flex;
   flex-direction: column;
@@ -668,6 +673,11 @@
   font-size: 13px;
 
   background-color: white;
+}
+
+.student label{
+  color: #ec5242;
+  font-weight: bold;
 }
 
 .triangle-left {
