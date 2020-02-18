@@ -1,4 +1,4 @@
-# A net.art exhibit page
+# A net.art gallery exhibit page
 
 > This web page is based on a template for a conference page. I've adapted that design to promote an art gallery exhibit. I've decided to go with the theme of net.art for this project. Glitch art is a recurring theme in this adaptation. The design is responsive: it works both on desktop and mobile devices.
 
