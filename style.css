@@ -8,48 +8,22 @@
   src: url('font/COCOGOOSE/Cocogoose-Condensed-Regular-trial.ttf');
 }
 
-
-
 .main-content {
   background-image: linear-gradient(to bottom, rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.95), rgba(240, 240, 240, 1.0)), url('img/background8.jpg');
   background-size: auto 100%;
-
-  /* padding: 12% 20% 6vw 10%; */
-
-  /* padding-left: 10%; */
-  /* padding-top: 7vw; */
-  /* padding-bottom: 7vw; */
-
-  /* background-position-y: -400px; */
-  /* padding: 300px; */
-  /* position: relative; */
 }
 
 .main-content-about {
   background-image: linear-gradient(to bottom, rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.9)), url('img/background10.jpg');
   background-size: cover;
-
-  /* padding: 12% 20% 6vw 10%; */
-
-  /* padding-left: 10%; */
-  /* padding-top: 7vw; */
-  /* padding-bottom: 7vw; */
-
-  /* background-position-y: -400px; */
-  /* padding: 300px; */
-  /* position: relative; */
 }
 
 .main-content h1,
 .main-content-about h1 {
   background-image: url('img/background3.jpg');
   -webkit-text-stroke: 3px #ec5242;
-  /* -webkit-text-fill-color: #ec5242; */
-
   background-attachment: fixed;
   font-size: 45px;
-  /* font-weight: bold; */
-  /* position: absolute; */
   top: 0;
   left: 0;
   -webkit-text-fill-color: transparent;
@@ -66,18 +40,14 @@
 .logo-container h1 {
   background-image: url('img/background3.jpg');
   -webkit-text-stroke: 3px #ec5242;
-  /* -webkit-text-fill-color: #ec5242; */
-
   background-attachment: fixed;
   font-size: 10vw;
-  /* font-weight: bold; */
-  /* position: absolute; */
   top: 0;
   left: 0;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: 'Cocogoose Pro-trial';
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .centered-message {
@@ -93,32 +63,11 @@
 
 .main-content h2,
 .main-content-about h2 {
-  /* -webkit-text-stroke: 2px #272a31; */
-  /* -webkit-text-stroke: 2px #d3d3d3; */
-  /* -webkit-text-fill-color: #ec5242; */
-  /* -webkit-text-stroke: 2px #ec5242; */
-  /* -webkit-text-fill-color: #ec5242; */
-
-  /* font-weight: bold; */
   color: #ec5242;
-  /* font-size: 80px; */
-
-  /* background-image: url('img/background7.jpg'); */
-  /* background-position-x: -400px; */
-  /* background-position-y: 0; */
-  /* background-size: 100% auto; */
-  /* -webkit-text-stroke: 3px #ec5242; */
-  /* -webkit-text-fill-color: #ec5242; */
-
-  /* background-attachment: fixed; */
   font-size: 40px;
   font-family: 'Cocogoose Pro-trial';
-  /* font-weight: bold; */
-  /* position: absolute; */
   top: 0;
   left: 0;
-  /* -webkit-text-fill-color: transparent; */
-  /* -webkit-background-clip: text; */
 }
 
 .badge {
@@ -126,7 +75,6 @@
   background-color: gray;
   padding: 2px;
   border-radius: 10%;
-  /* border: solid 2px black; */
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 2px;
@@ -218,7 +166,6 @@
 }
 
 .text-container {
-  /* width:50%; */
   background-color: #f0f0f0;
   border: solid 5px white;
   z-index: 2;
@@ -251,11 +198,6 @@
 
 .site-navbar {
   background-color: transparent;
-  /* position: absolute; */
-  /* position: fixed; */
-  /* top: 0; */
-  /* float: left; */
-  /* position: fixed; */
 }
 
 .custom-toggler.navbar-toggler {
@@ -291,20 +233,9 @@
   -webkit-background-clip: text;
   white-space: nowrap;
   background-attachment: fixed;
-
 }
 
-/* .glitch-LOGO-inline{
-  font-size: 15px;
-  font-family: 'Cocogoose Pro-trial';
-  background-image: url('img/background3.jpg');
-  -webkit-text-stroke: 1px #ec5242;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-} */
-
 .logo-text {
-  /* position:absolute; */
   margin-left: 10px;
   margin-right: 20px;
   white-space: nowrap;
@@ -326,12 +257,10 @@
   background-color: gray;
   padding: 1px;
   border-radius: 10%;
-  /* border: solid 2px black; */
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 1px;
 }
-
 
 .cell2 {
   border-radius: 30%;
@@ -360,9 +289,7 @@
 
 .main-event {
   background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.7));
-
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   font-size: 14px;
   color: white;
@@ -397,7 +324,6 @@
 .guest-image {
   width: 100%;
   padding-top: 100%;
-  /* z-index: 2; */
   margin: 30px 0 30px 0;
   position: relative;
 }
@@ -413,7 +339,6 @@
   background-size: cover;
   background-position: center center;
 }
-
 
 .guest-genco {
   background-image: url('img/genco.jpg');
@@ -466,7 +391,6 @@
 
 .guest-description {
   color: #777;
-  /* font-weight: bold; */
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 15px;
@@ -477,7 +401,6 @@
   background-color: gray;
   padding: 2px;
   border-radius: 10%;
-  /* border: solid 2px black; */
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 2px;
@@ -504,8 +427,6 @@
 .sponsor-image {
   width: 200px;
   margin: 30px;
-  /* height:auto; */
-  /* height: 200px; */
 }
 
 .footer-grid {
@@ -536,7 +457,6 @@
 
 .past-glitch-text {
   color: white;
-  /* font-family: 'Cocogoose Pro-trial'; */
   font-weight: bold;
   text-decoration: none;
 }
@@ -555,14 +475,12 @@
 
 .past-image-1 {
   background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url('img/past1.jpg');
-  /* background-image: url('img/past1.jpg'); */
   background-size: cover;
   background-position: center center;
 }
 
 .past-image-2 {
   background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.7)), url('img/past2.jpg');
-  /* background-image: url('img/past2.jpg'); */
   background-size: cover;
   background-position: center center;
 }
@@ -575,30 +493,28 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 2fr 2fr;
-
   border: 1px solid gray;
 }
 
-.lunch-menu{
+.lunch-menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr ;
-
+  grid-template-rows: 1fr 2fr;
   border: 1px solid gray;
 }
 
-.head-cell{
+.head-cell {
   background-color: #eee;
 }
 
-.menu-cell{
+.menu-cell {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px 0 20px 0;
 }
 
-.menu-cell label{
+.menu-cell label {
   margin-right: 10px;
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
@@ -610,7 +526,6 @@
   justify-content: center;
   align-items: center;
   border: solid 1px gray;
-  
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -622,7 +537,6 @@
   align-items: center;
   justify-content: center;
   border: solid 1px gray;
-  
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -634,15 +548,13 @@
   justify-content: center;
   align-items: center;
   border: solid 1px gray;
-  
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-
   background-color: white;
 }
 
-.normal-1 label{
+.normal-1 label {
   color: #ec5242;
   font-weight: bold;
 }
@@ -653,11 +565,9 @@
   justify-content: center;
   align-items: center;
   border: solid 1px gray;
-
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-
   background-color: white;
 }
 
@@ -667,15 +577,13 @@
   justify-content: center;
   align-items: center;
   border: solid 1px gray;
-
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-
   background-color: white;
 }
 
-.student label{
+.student label {
   color: #ec5242;
   font-weight: bold;
 }
@@ -723,14 +631,14 @@
   left: -10px;
 }
 
-.step{
+.step {
   border: solid 1px gray;
   border-radius: 20px;
   padding: 15px;
   margin-bottom: 30px;
 }
 
-.step-num{
+.step-num {
   color: #ec5242;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -738,31 +646,28 @@
   font-size: 13px;
 }
 
-.step-text{
+.step-text {
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
 
-.checkout{
+.checkout {
   border: none;
   background-color: #ec5242;
   color: white;
   font-size: 15px;
-  /* font-weight: bold; */
   padding: 25px;
   margin-top: 30px;
 }
 
-.social-icon{
+.social-icon {
   height: 17px;
 }
 
 @media only screen and (min-width: 768px) {
-
   .site-navbar {
     background-color: white;
     position: relative;
   }
-
 }
