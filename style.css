@@ -29,16 +29,16 @@
   white-space: nowrap;
 }
 
+.logo-text a {
+  text-decoration: none;
+}
+
 .main-content h4 a {
   color: #888;
   font-size: 20px;
 }
 
 .logo-text a:hover {
-  text-decoration: none;
-}
-
-.logo-text a {
   text-decoration: none;
 }
 
