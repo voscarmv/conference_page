@@ -694,6 +694,10 @@ section > h1 {
   .logo-container h1 {
     font-size: 5vw;
   }
+
+  .hide-mobile {
+    display: unset;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -719,5 +723,9 @@ section > h1 {
 
   .logo-container h1 {
     font-size: 1vw;
+  }
+
+  .hide-mobile {
+    display: none;
   }
 }
