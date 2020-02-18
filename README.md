@@ -40,7 +40,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/voscarmv/conference_page/c26027492a24d8a434779240ee4ae860c88eaba2/pages/index.html)
+[Live Demo Link](https://rawcdn.githack.com/voscarmv/conference_page/86e80b080887346e2177295aa8965ffc15740c64/pages/index.html)
 
 ## Usage
 
