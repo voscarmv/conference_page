@@ -567,11 +567,41 @@
   border: 1px solid gray;
 }
 
+.lunch-menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr ;
+
+  border: 1px solid gray;
+}
+
+.head-cell{
+  background-color: #eee;
+}
+
+.menu-cell{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.menu-cell label{
+  margin-right: 10px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
 .header-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   border: solid 1px gray;
+  
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 
 .header-2 {
@@ -580,6 +610,10 @@
   align-items: center;
   justify-content: center;
   border: solid 1px gray;
+  
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 
 .normal-1 {
@@ -588,6 +622,12 @@
   justify-content: center;
   align-items: center;
   border: solid 1px gray;
+  
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+
+  background-color: white;
 }
 
 .date-1 {
@@ -596,6 +636,12 @@
   justify-content: center;
   align-items: center;
   border: solid 1px gray;
+
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+
+  background-color: white;
 }
 
 .student {
@@ -604,6 +650,12 @@
   justify-content: center;
   align-items: center;
   border: solid 1px gray;
+
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+
+  background-color: white;
 }
 
 .triangle-left {
@@ -668,6 +720,16 @@
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
+}
+
+.checkout{
+  border: none;
+  background-color: #ec5242;
+  color: white;
+  font-size: 15px;
+  /* font-weight: bold; */
+  padding: 25px;
+  margin-top: 30px;
 }
 
 @media only screen and (min-width: 768px) {
