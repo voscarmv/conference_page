@@ -41,8 +41,7 @@
 }
 
 .main-content h1,
-.main-content-about h1,
-.logo-container h1 {
+.main-content-about h1 {
   background-image: url('img/background3.jpg');
   -webkit-text-stroke: 3px #ec5242;
   /* -webkit-text-fill-color: #ec5242; */
@@ -64,6 +63,23 @@
   padding: 40px;
 }
 
+.logo-container h1 {
+  background-image: url('img/background3.jpg');
+  -webkit-text-stroke: 3px #ec5242;
+  /* -webkit-text-fill-color: #ec5242; */
+
+  background-attachment: fixed;
+  font-size: 10vw;
+  /* font-weight: bold; */
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Cocogoose Pro-trial';
+  white-space: nowrap; 
+}
+
 .centered-message {
   font-size: 15px;
   color: black;
@@ -73,10 +89,6 @@
 
 .gray-text {
   color: darkgray;
-}
-
-.logo-container h1 {
-  font-size: 60px;
 }
 
 .main-content h2,
