@@ -78,7 +78,7 @@ The icons used for this project have been released for non-commercial use. All i
 - [https://www.flaticon.com/free-icon/image_2467800?term=picture&page=1&position=22](https://www.flaticon.com/free-icon/image_2467800?term=picture&page=1&position=22)
 - [https://www.flaticon.com/free-icon/drinks_2474308?term=party&page=1&position=16](https://www.flaticon.com/free-icon/drinks_2474308?term=party&page=1&position=16)
 - [https://www.flaticon.com/free-icon/typing_1670530](https://www.flaticon.com/free-icon/typing_1670530)
-- [5abb171f-449d-4ca5-b28d-7ca252151f4d](https://ccsearch.creativecommons.org/photos/5abb171f-449d-4ca5-b28d-7ca252151f4d)
+- [https://ccsearch.creativecommons.org/photos/5abb171f-449d-4ca5-b28d-7ca252151f4d](https://ccsearch.creativecommons.org/photos/5abb171f-449d-4ca5-b28d-7ca252151f4d)
 - [https://www.flickr.com/photos/museres/5430514383/](https://www.flickr.com/photos/museres/5430514383/)
 - [https://www.flaticon.com/free-icon/twitter_733579](https://www.flaticon.com/free-icon/twitter_733579)
 - [https://www.flaticon.com/free-icon/facebook_733547](https://www.flaticon.com/free-icon/facebook_733547)
