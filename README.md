@@ -69,7 +69,7 @@ Give a ⭐️ if you like this project!
 
 ### Images
 
-The images used for this project have been released for non-commercial use, and are available online here:
+The icons used for this project have been released for non-commercial use. All icons and images belong to their original creators. They are are available online here:
 
 - [https://www.flickr.com/photos/hellocatfood/11287069044/](https://www.flickr.com/photos/hellocatfood/11287069044/)
 - [https://commons.wikimedia.org/wiki/File:Glitch_Art.jpg](https://commons.wikimedia.org/wiki/File:Glitch_Art.jpg)
