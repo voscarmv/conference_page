@@ -86,4 +86,4 @@ The icons used for this project have been released for non-commercial use. All i
 
 ## 📝 License
 
-This project is [MIT](https://opensource.org/licenses/MIT) licensed, excepet for the icons and images.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed, except for the icons and images.
